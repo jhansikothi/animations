@@ -1,0 +1,81 @@
+.one:hover {
+    animation-name: Imagerightrotate;
+    animation-delay: 0s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes Imagerightrotate {
+    0% {
+        transform: translateX(0px) rotate(0deg);
+
+    }
+
+    30% {
+        transform: translateX(150px) rotate(180deg);
+
+    }
+
+    50% {
+        transform: translateX(300px) rotate(360deg);
+
+    }
+}
+
+.two:hover {
+    animation-name: Imageleftrotate;
+    animation-delay: 0s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes Imageleftrotate {
+    0% {
+        transform: translateX(0px) rotate(0deg);
+
+    }
+
+    30% {
+        transform: translateX(-150px) rotate(-180deg);
+
+    }
+
+    50% {
+        transform: translateX(-300px) rotate(-360deg);
+
+    }
+}
+
+.three:hover {
+    animation-name: Imagebottomrotate;
+    animation-delay: 0s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes Imagebottomrotate {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+
+    }
+
+    30% {
+        transform: translateY(150px) rotate(180deg);
+
+    }
+
+    50% {
+        transform: translateY(300px) rotate(360deg);
+
+    }
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
